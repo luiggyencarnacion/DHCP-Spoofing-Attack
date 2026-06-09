@@ -107,7 +107,7 @@ scapy>=2.5.0
                     ┌─────────┐
                     │   R-1   │  10.6.63.1/24
                     └────┬────┘    (DHCP legítimo - deshabilitado en lab)
-                         │ g0/0
+                         │ Gig0/0
                          │ Gig0/0
                     ┌────┴────┐
                     │  SW-1   │
