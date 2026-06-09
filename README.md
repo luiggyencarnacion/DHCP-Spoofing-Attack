@@ -114,18 +114,20 @@ scapy>=2.5.0
                     └──┬───┬──┘
                Gig0/2  │   │  Gig0/1
               ┌────────┘   └───────────┐
-         ┌────┴──────┐            ┌────┴────┐
-         │KaliLinux-1│            │   PC1   │
-         │DHCP Rogue │            │ Víctima │
-         │10.6.63.13 │            │ → DHCP  │
-         └───────────┘            └─────────┘
-               e0
+         ┌────┴────────┐          ┌────┴────┐
+         │ KaliLinux-1 │          │   PC1   │
+         │ DHCP Rogue  │          │ Víctima │
+         │ 10.6.63.13  │          │ → DHCP  │
+         └─────────────┘          └─────────┘
+               e0                      e0
 
   PC1 solicita IP → KaliLinux-1 responde con:
     Gateway: 10.6.63.13 (atacante)
     DNS:     10.6.63.13 (atacante)
     IP:      10.6.63.100+
 ```
+
+![Topología GNS3](images/01_topologia_gns3.png)
 
 ### Tabla de Direccionamiento
 
@@ -294,14 +296,6 @@ evidencias/
 ## 🎬 Video de Demostración
 
 > 📺 **[Ver demostración en YouTube →](https://youtu.be/JUfHl5T-SHE?si=HnVdcsq0poEcUYnF)**
-
-- ✅ Topología en GNS3 con nombre **Luiggy Encarnación** y matrícula **2025-0663**
-- ✅ Hora y fecha del sistema visibles
-- ✅ Cara y voz del autor
-- ✅ Handshake DHCP completo visible en consola (DISCOVER → OFFER → REQUEST → ACK)
-- ✅ Verificación de la IP y gateway incorrectos en la víctima
-- ✅ Aplicación de DHCP Snooping y verificación de bloqueo
-- ⏱️ Duración máxima: 5 minutos
 
 ---
 
