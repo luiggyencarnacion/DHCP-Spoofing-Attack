@@ -146,7 +146,7 @@ scapy>=2.5.0
 |---|---|
 | Red | 10.6.63.0/24 |
 | Pool DHCP falso | 10.6.63.100 en adelante |
-| Simulador | GNS3 |
+| Emulador | GNS3 |
 | Plataforma atacante | Kali Linux |
 | VLANs | VLAN 1 (default) |
 
