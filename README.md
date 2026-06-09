@@ -206,7 +206,7 @@ Ether(src=get_if_hwaddr(IFACE), dst=client_mac)
 ## 🚀 Uso y Ejecución
 
 ```bash
-sudo python3 dhcp_spoofing.py
+sudo python3 ddhcp_spoofing_attack.py
 ```
 
 **Interacción esperada:**
